@@ -610,10 +610,8 @@ p {
 }
 
 body.studio-sequential .studio-gallery .gallery-item {
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(30px) scale(0.96);
-  filter: blur(3px);
+  opacity: 1;
+  pointer-events: auto;
 }
 
 body.studio-sequential .studio-gallery .gallery-item.is-random-visible {
@@ -1177,31 +1175,26 @@ body.studio-sequential .studio-gallery .gallery-item.is-random-visible.fx-tilt-i
 
 /* Whatsapp */
 .floating-whatsapp {
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  background: linear-gradient(155deg, #73d0ff 0%, #4fbdf5 58%, #36a9e7 100%);
-  color: #ffffff;
+  color: #25a4e0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   position: fixed;
-  right: 12px;
-  bottom: 18px;
+  right: 18px;
+  bottom: 22px;
   z-index: 1200;
-  box-shadow: 0 12px 24px rgb(54 169 231 / 28%);
   text-decoration: none;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  border: 2px solid rgba(255, 255, 255, 0.88);
-  transition: transform 0.25s ease, box-shadow 0.28s ease;
+  filter: drop-shadow(0 4px 8px rgb(36 164 224 / 30%));
+  transition: transform 0.25s ease, color 0.25s ease;
   animation: waPulse 3.4s ease-in-out infinite;
 }
 
 .floating-whatsapp .wa-icon {
-  width: 1.72rem;
-  height: 1.72rem;
+  width: 3rem;
+  height: 3rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1209,16 +1202,15 @@ body.studio-sequential .studio-gallery .gallery-item.is-random-visible.fx-tilt-i
 }
 
 .floating-whatsapp .wa-icon svg {
-  width: 1.72rem;
-  height: 1.72rem;
+  width: 3rem;
+  height: 3rem;
   display: block;
 }
 
 .floating-whatsapp:hover {
-  color: #ffffff;
+  color: #1789c9;
   text-decoration: none;
-  transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 16px 30px rgb(54 169 231 / 36%);
+  transform: translateY(-2px) scale(1.06);
 }
 
 @keyframes waPulse {

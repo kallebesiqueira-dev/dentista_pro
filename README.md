@@ -1,5 +1,7 @@
 # Dentista Pro
 
+![Dentista Pro preview](assets/images/preview.png)
+
 Dentista Pro is a premium dental clinic landing page created as a portfolio project. It presents a modern private practice through a polished visual identity, conversion-focused page structure, and a calm, high-trust user experience designed to position the brand as professional, elegant, and clinically advanced.
 
 This project was built to show how a static website can still feel high-end and persuasive when branding, layout, motion, and content hierarchy are handled with precision. The result is a clean promotional experience suitable for healthcare, beauty, wellness, and other service-based businesses that rely on credibility and first impressions.
